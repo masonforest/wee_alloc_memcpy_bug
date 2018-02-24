@@ -1,0 +1,10 @@
+[package]
+name = "wee_alloc_memcpy_bug"
+version = "0.1.0"
+authors = ["Mason Fischer <mason@kissr.co>"]
+
+[dependencies]
+wee_alloc = { git = "https://github.com/fitzgen/wee_alloc", default-features = false}
+
+[lib]
+crate_type = ["cdylib"]
