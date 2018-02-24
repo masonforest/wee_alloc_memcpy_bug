@@ -1,5 +1,6 @@
 #![no_std]
 #![feature(alloc, core_intrinsics, global_allocator, lang_items)]
+extern crate rlibc;
 #[macro_use] extern crate alloc;
 extern crate wee_alloc;
 #[global_allocator]

@@ -5,6 +5,7 @@ authors = ["Mason Fischer <mason@kissr.co>"]
 
 [dependencies]
 wee_alloc = { git = "https://github.com/fitzgen/wee_alloc", default-features = false}
+rlibc = "1.0"
 
 [lib]
 crate_type = ["cdylib"]

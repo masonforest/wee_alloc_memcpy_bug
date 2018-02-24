@@ -1,3 +1,5 @@
+Fixed
+====
 This is a [MCVE](https://stackoverflow.com/help/mcve) of bug
 [wee_alloc#28](https://github.com/fitzgen/wee_alloc/issues/28)
 
